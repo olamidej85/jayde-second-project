@@ -91,3 +91,31 @@ footer{
     font-size: 12px;
     color: rgba(0, 0, 0, 0.7);
 }
+
+.weather-forecast{
+    margin-top: 20px;
+    
+}
+
+.weather-forecast-date{
+    color: rgba(39, 33, 66, 0.4);
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.weather-forecast-temperature{
+    font-size: 15px;
+
+}
+.weather-forecast-temperature-max{
+    color: rgb(246, 82, 130);
+    
+}
+.weather-forecast-temperature-min{
+    color: rgb(246, 82, 130);
+    opacity: 0.5;
+    
+}
+.icon{
+    margin-bottom: 10px;
+}
