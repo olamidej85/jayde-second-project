@@ -60,7 +60,7 @@ return days [date.getDay()];
 
 function getForecast(city){
     let apiKey = "8e4a0bf13d97t36283b48a970944023o";
-    let apiUrl = `https://api.shecodes.io/weather/v1/forecast?query=${city}&key=${apiKey}&units=mertric`;
+    let apiUrl = `https://api.shecodes.io/weather/v1/forecast?query=${city}&key=${apiKey}&units=metric`;
     axios(apiUrl).then(displayForecast);
 
 }
