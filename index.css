@@ -124,8 +124,13 @@ footer{
     opacity: 0.5;
     
 }
+
 .weather-forecast-icon{
-    margin-bottom: 10px;
     font-size:30px;
-    text-align: center;
+    height: 30px;
+    display: block;
+    margin: 0 auto;
 }
+
+
+
